@@ -1,0 +1,32 @@
+```text
+SentinelStack - Incident Summary Report
+============================================================
+Generated at     : 2025-11-17 04:28:09 UTC
+Total events     : 16
+Overall severity : HIGH
+
+Breakdown by category:
+  - authentication_failure: 13
+  - application_error: 2
+  - application_warning: 1
+
+Per-IP Threat Overview:
+------------------------------------------------------------
+IP: 185.244.25.199 | Risk: HIGH | Events: 6 (auth failures: 6) | Lunteren, The Netherlands | ISP: Wojciech Czapkowicz
+IP: 91.203.145.22 | Risk: HIGH | Events: 5 (auth failures: 5) | Kryvyi Rih, Ukraine | ISP: FOP Kazakov Oleksandr Oleksandrovich
+IP: 192.168.1.25 | Risk: INFO | Events: 1 (auth failures: 1) | Unknown, Unknown | ISP: Unknown
+IP: 10.0.0.15 | Risk: INFO | Events: 1 (auth failures: 1) | Unknown, Unknown | ISP: Unknown
+
+Potential brute-force sources (authentication failures):
+  - 185.244.25.199: 6 failed authentication attempts (threshold = 3)
+  - 91.203.145.22: 5 failed authentication attempts (threshold = 3)
+
+Sample suspicious events (up to 5):
+------------------------------------------------------------
+[Line 1] (authentication_failure) Jan 18 09:15:01 server sshd[1022]: Failed password for invalid user admin from 185.244.25.199 port 54321 ssh2
+[Line 2] (authentication_failure) Jan 18 09:15:03 server sshd[1023]: Failed password for invalid user admin from 185.244.25.199 port 54322 ssh2
+[Line 3] (authentication_failure) Jan 18 09:15:05 server sshd[1024]: Failed password for invalid user admin from 185.244.25.199 port 54323 ssh2
+[Line 4] (authentication_failure) Jan 18 09:15:06 server sshd[1025]: Failed password for invalid user admin from 185.244.25.199 port 54324 ssh2
+[Line 6] (authentication_failure) Jan 18 09:17:10 server sshd[1055]: Failed password for user root from 91.203.145.22 port 42420 ssh2
+
+```

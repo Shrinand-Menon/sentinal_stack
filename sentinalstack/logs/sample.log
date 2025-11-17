@@ -1,0 +1,26 @@
+Jan 18 09:15:01 server sshd[1022]: Failed password for invalid user admin from 185.244.25.199 port 54321 ssh2
+Jan 18 09:15:03 server sshd[1023]: Failed password for invalid user admin from 185.244.25.199 port 54322 ssh2
+Jan 18 09:15:05 server sshd[1024]: Failed password for invalid user admin from 185.244.25.199 port 54323 ssh2
+Jan 18 09:15:06 server sshd[1025]: Failed password for invalid user admin from 185.244.25.199 port 54324 ssh2
+
+Jan 18 09:17:10 server sshd[1055]: Failed password for user root from 91.203.145.22 port 42420 ssh2
+Jan 18 09:17:12 server sshd[1056]: Failed password for user root from 91.203.145.22 port 42421 ssh2
+Jan 18 09:17:14 server sshd[1057]: Failed password for user root from 91.203.145.22 port 42422 ssh2
+Jan 18 09:17:16 server sshd[1058]: Failed password for user root from 91.203.145.22 port 42423 ssh2
+Jan 18 09:17:18 server sshd[1059]: Failed password for user root from 91.203.145.22 port 42424 ssh2
+
+Jan 18 09:22:45 server app[2200]: ERROR: Database connection timeout
+Jan 18 09:23:12 server app[2201]: WARNING: High memory usage detected
+Jan 18 09:24:30 server app[2202]: INFO: User session started for user alice
+
+Jan 18 09:30:52 server sshd[1322]: Accepted password for user alice from 192.168.1.25 port 60211 ssh2
+Jan 18 09:31:05 server sshd[1323]: Failed password for user bob from 192.168.1.25 port 60212 ssh2
+
+Jan 18 09:32:44 server systemd[1]: Starting Daily apt upgrade...
+Jan 18 09:33:02 server apt[2400]: ERROR: Failed to lock dpkg database
+
+Jan 18 09:34:21 server sshd[1401]: Failed password for invalid user test from 185.244.25.199 port 60011 ssh2
+Jan 18 09:34:22 server sshd[1402]: Failed password for invalid user test from 185.244.25.199 port 60012 ssh2
+
+Jan 18 09:40:00 server sshd[1501]: Accepted password for user charlie from 10.0.0.15 port 50922 ssh2
+Jan 18 09:41:30 server sshd[1502]: Failed password for user charlie from 10.0.0.15 port 50923 ssh2
